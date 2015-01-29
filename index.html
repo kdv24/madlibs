@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/scripts.js"></script>
+				
+		<title>Mad Libs!</title>
+	</head>
+
+	<body>
+		<h1>Mad Libs?</h1>
+		<h5 class="author">adapted by Kelly with the help of Epicodus</h5>
+
+		<p class="intro">A bunch of text that is probably supposed to be Lorem Ipsum, but I just can't bring myself to do that because it's the convention.  Instead I prefer my ya da ya da, blah blah blah...  Not nearly as professional, but that's okay for this.  The point is to have enough text rambling along that it can serve as a placeholder.  I can do that on ny own without having to bring in the repeating latin.  Good enough.   A bunch of text that is probably supposed to be Lorem Ipsum, but I just can't bring myself to do because it's the convention.  Instead I prefer my ya da ya da, blah blah blah...  Not nearly as professional, but that's okay for this.  The point is to have enough text rambling along that it can serve as a placeholder.  I can do that on my own without having to bring in the repeating latin.  Good enough.  </p>
+
+		<p>Now I just need a little more text with an editable form.  Ta da; like so...</p>
+
+		<h3>Mad Libs input form</h3>
+
+	<div class="container">
+		<h4>Choose your background color, then fill in the blanks to write your story!</h4>
+		<button type="submit" id="green" class="btn btn-success">Green</button>
+		<button type="submit" id="red" class="btn btn-danger">Red</button>
+		<button type="submit" id="lightblue" class="btn btn-info">Light Blue</button>
+		<br><br>
+		<div class="inline">
+		<h5>Also, depending on which color you've chosen, you may also wish to change the color of your text to light instead of dark.  You have that option here.</h5>
+		<button type="submit" id="light-text" class="btn btn-primary">Light Text</button>
+		<button type="submit" id="dark-text" class="btn btn-default">Dark Text</button>
+		</div>
+		<br><br>
+		<div id="blanks">
+		<form>
+		  <div class="form-group">
+		    <label for="noun1">A noun</label>
+		    <input id="noun1" class="form-control" type="text">
+		  </div>
+		  <div class="form-group">
+		    <label for="adjective">An adjective</label>
+		    <input type="text" class="form-control" id="adjective">
+		  </div>
+		  <div class="form-group">
+		    <label for="person1">A person</label>
+		    <input type="text" class="form-control" id="person1">
+		  </div>
+		  <div class="form-group">
+		    <label for="noun2">Another noun</label>
+		    <input type="text" class="form-control" id="noun2">
+		  </div>
+		  <div class="form-group">
+		    <label for="person2">A different person</label>
+		    <input type="text" class="form-control" id="person2">
+		  </div>
+		  <div class="form-group">
+		    <label for="verb">A present tense verb</label>
+		    <input type="text" class="form-control" id="verb">
+		  </div>
+
+		  <div class="form-group">
+		    <label for="emotion">An emotion</label>
+		    <input type="text" class="form-control" id="emotion">
+		  </div> 
+		  <div class="form-group">
+		    <label for="exclamation">An exclamation</label>
+		    <input type="text" class="form-control" id="exclamation">
+		  </div>		  
+		  <div class="form-group">
+		    <label for="noun3">Yet one final noun</label>
+		    <input type="text" class="form-control" id="noun3">
+		  </div>
+		  <div class="form-group">
+		 </div> 
+
+		    <p class="help-block"> Wow, you are pretty much spectacular.  Good job knowing your parts of speech!  Are you ready to see whether you've created a masterpiece or not?</p>
+		  </div>
+
+		  <button type="submit" class="btn btn-default">Yes, please! Show me my fabulous literary creation!</button>
+		</form>
+	</div>
+		<br>
+		<div id="story">
+		<p>Once there was a very <span class="adjective"></span> <span class="person1"></span> who lived in a <span class="noun2"></span> together with <span class="person2"></span>.  They both loved to <span class="verb"></span> but never knew the other one did too.  One day they discovered their shared love of <span class="verb"></span>ing and they were so <span class="emotion"></span> they screamed <span class="exclamation"></span> and gave each other a giant <span class="noun3"></span>.  The end.</p>
+		<br>
+	</body>
+</html>	

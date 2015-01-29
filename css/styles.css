@@ -1,0 +1,65 @@
+body {
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.inline {
+	width: 70%;
+	display: inline-block;
+}
+
+.inline h5 {
+	float: left;
+}
+
+.inline button {
+	float: right;
+}
+
+.author {
+  text-align: center;
+}
+
+.intro {
+  margin: 5% 0%;
+  text-align: justify;
+}
+
+#story {
+  display: none;
+}
+
+/*jQuery CSS*/
+
+.newFrame {
+	border: 5px solid #4044cf;
+	padding: 5px 7px;
+	background-color: #8b9bcf
+}
+
+
+.green-background {
+	background-color: #8fcf7d;
+}
+
+.red-background {
+	background-color: #cf3d4d;
+}
+
+.lightblue-background {
+	background-color: #44c4cf;
+}
+
+.light-text {
+	color: white;
+}
+
+.dark-text {
+	color: black;
+}
